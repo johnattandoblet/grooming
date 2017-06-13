@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MyGame>
+        <dialog id="1" type="normal">
+                <line id="1" portrait="Paula" mood="neutral" pos="left">hola como sigues</line>
+                <line id="2" portrait="Cristian" mood="neutral" pos="right">bien y tu</line>
+                <line id="3" portrait="Paula" mood="neutral" pos="left">muy bien, pensandote</line>
+                <line id="4" portrait="Cristian" mood="neutral" pos="right">enserio y porque</line>
+                <line id="5" portrait="Paula" mood="neutral" pos="left">porque me pareces muy lindo</line>
+		<line id="6" portrait="Paula" mood="neutral" pos="left">y me gustas</line>
+                <line id="7" portrait="Cristian" mood="neutral" pos="right">tu tambien eres muy linda</line>
+                <line id="8" portrait="Cristian" mood="neutral" pos="right">y tambien me gustas</line>
+                <nextdialog>2</nextdialog>
+        </dialog>
+        <dialog id="2" type="question">
+                <question id="1" portrait="Paula" mood="question" pos="left">estas solo?</question>
+                <answer id="1">Si</answer>
+                <nextdialog id="1">3</nextdialog>
+                <answer id="2">No</answer>
+                <nextdialog id="2">9</nextdialog>                
+        </dialog>
+	 <dialog id="3" type="normal">
+                <line id="1" portrait="Paula" mood="neutral" pos="left">juguemos algo chevere</line>
+                <line id="2" portrait="Paula" mood="neutral" pos="left">yo se que te va a gustar</line>
+                <line id="3" portrait="Cristian" mood="neutral" pos="right">si claro dale</line>
+                <line id="4" portrait="Paula" mood="neutral" pos="left">YO TE ENVIO UNA FOTO</line>
+                <nextdialog>4</nextdialog>
+        </dialog>  
+        <dialog id="4" type="question">
+                <question id="1" portrait="Paula" mood="question" pos="left">Y TU ME ENVIAS OTRA IGUAL</question>
+                <answer id="1">Si</answer>
+                <nextdialog id="1">8</nextdialog>
+                <answer id="2">No</answer>
+                <nextdialog id="2">5</nextdialog>                
+        </dialog>
+	 <dialog id="5" type="question">
+                <question id="1" portrait="Paula" mood="question" pos="left">dale se que te va a gustar</question>
+                <answer id="1">Vale</answer>
+                <nextdialog id="1">8</nextdialog>
+                <answer id="2">No</answer>
+                <nextdialog id="2">6</nextdialog>  
+        </dialog> 
+	 <dialog id="6" type="normal">
+                <line id="1" portrait="Cristian" mood="neutral" pos="right">Mi mama me ha ensenado</line>
+                <line id="2" portrait="Cristian" mood="neutral" pos="right">Que eso no es correcto.</line>
+                <line id="3" portrait="Cristian" mood="neutral" pos="right">Gracias pero no.</line>
+                <nextdialog>7</nextdialog>
+        </dialog>
+	 <dialog id="7" type="win">
+        </dialog>  
+	 <dialog id="8" type="lose">
+        </dialog> 
+	 <dialog id="9" type="normal">
+                <line id="1" portrait="Paula" mood="neutral" pos="left">con quien estas?</line>
+                <line id="2" portrait="Cristian" mood="neutral" pos="right">con mis papas</line>
+                <line id="3" portrait="Paula" mood="neutral" pos="left">no te puedes ir</line>
+                <nextdialog>10</nextdialog>
+        </dialog>     
+	 <dialog id="10" type="question">
+                <question id="1" portrait="Paula" mood="question" pos="left">solito a tu habitacion?</question>
+                <answer id="1">Si</answer>
+                <nextdialog id="1">8</nextdialog>
+                <answer id="2">No</answer>
+                <nextdialog id="2">11</nextdialog>  
+        </dialog> 
+	 <dialog id="11" type="question">
+                <question id="1" portrait="Paula" mood="question" pos="left">porque no,es mas privado</question>
+                <answer id="1">Ya voy</answer>
+                <nextdialog id="1">8</nextdialog>
+                <answer id="2">No</answer>
+                <nextdialog id="2">12</nextdialog>  
+        </dialog>  
+	 <dialog id="12" type="normal">
+                <line id="1" portrait="Cristian" mood="neutral" pos="right">Porque eso no esta bien</line>
+                <line id="2" portrait="Cristian" mood="neutral" pos="right">Para hablar con usted</line>
+                <line id="3" portrait="Cristian" mood="neutral" pos="right">No necesito esconderme</line>
+                <line id="4" portrait="Cristian" mood="neutral" pos="right">Ni hacer cosas indebidas</line>
+                <nextdialog>7</nextdialog>
+        </dialog>          
+</MyGame>
