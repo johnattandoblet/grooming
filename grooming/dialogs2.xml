@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MyGame>
+        <dialog id="1" type="normal">
+                <line id="1" portrait="Emilio" mood="neutral" pos="left">hola nena como estas?</line>
+                <line id="2" portrait="Ana" mood="neutral" pos="right">hola, bien y tu</line>
+                <line id="3" portrait="Emilio" mood="neutral" pos="left">que bien, que haces nena</line>
+                <line id="4" portrait="Ana" mood="neutral" pos="right">en la casa haciendo tareas</line>
+                <line id="5" portrait="Emilio" mood="neutral" pos="left">mm haciendo tareas,</line>
+		<line id="6" portrait="Emilio" mood="neutral" pos="left">y nadie te esta ayudando..</line>
+                <line id="7" portrait="Ana" mood="neutral" pos="right">no, </line>
+                <line id="8" portrait="Ana" mood="neutral" pos="right">mis papas no han llegado</line>
+		<line id="9" portrait="Ana" mood="neutral" pos="right">entonces me toca solita</line>
+                <line id="10" portrait="Emilio" mood="neutral" pos="left">a ya, eres muy linda</line>
+                <line id="11" portrait="Ana" mood="neutral" pos="right">gracias,enserio lo crees :D</line>
+                <nextdialog>2</nextdialog>
+        </dialog>
+        <dialog id="2" type="question">
+                <question id="1" portrait="Emilio" mood="question" pos="left">regalame una foto</question>
+                <answer id="1">Si</answer>
+                <nextdialog id="1">3</nextdialog>
+                <answer id="2">No</answer>
+                <nextdialog id="2">6</nextdialog>                
+        </dialog>
+	 <dialog id="3" type="normal">
+                <line id="1" portrait="Emilio" mood="neutral" pos="left">eres muyyyyy hermosa</line>
+                <line id="2" portrait="Ana" mood="neutral" pos="right">gracias, mandame una tu</line>
+                <line id="3" portrait="Emilio" mood="neutral" pos="left">si claro nena,</line>
+                <line id="4" portrait="Emilio" mood="neutral" pos="left">pero te la envio</line>
+                <line id="5" portrait="Emilio" mood="neutral" pos="left">en ropa interior</line>
+                <nextdialog>4</nextdialog>
+        </dialog>  
+        <dialog id="4" type="question">
+                <question id="1" portrait="Emilio" mood="question" pos="left">y tu me envias una..</question>
+                <answer id="1">Si</answer>
+                <nextdialog id="1">5</nextdialog>
+                <answer id="2">No</answer>
+                <nextdialog id="2">7</nextdialog>                
+        </dialog>
+	 <dialog id="5" type="normal">
+                <line id="1" portrait="Emilio" mood="neutral" pos="left">WAUUU!!</line>
+                <line id="2" portrait="Emilio" mood="neutral" pos="left">quiero mas fotos tuyas</line>
+                <line id="3" portrait="Ana" mood="neutral" pos="right">NO TE VOY A ENVIAR MAS</line>
+                <line id="4" portrait="Emilio" mood="neutral" pos="left">SI NO ME ENVIAS MAS</line>
+                <line id="5" portrait="Emilio" mood="neutral" pos="left">PUBLICARE LAS QUE TENGO</line>  
+                <line id="6" portrait="Emilio" mood="neutral" pos="left">EN TODAS</line>
+                <line id="7" portrait="Emilio" mood="neutral" pos="left">LAS REDES SOCIALES..</line>                        
+                <nextdialog>8</nextdialog>
+        </dialog> 
+	 <dialog id="6" type="normal">
+                <line id="1" portrait="Emilio" mood="neutral" pos="left">A bueno, gracias</line>
+                <line id="2" portrait="Ana" mood="neutral" pos="right">esta bien</line>
+                <line id="3" portrait="Emilio" nnpos="left">(dejo en visto)</line>
+                <nextdialog>7</nextdialog>
+        </dialog>
+	 <dialog id="7" type="win">
+        </dialog>  
+	 <dialog id="8" type="lose">
+        </dialog>                    
+</MyGame>
